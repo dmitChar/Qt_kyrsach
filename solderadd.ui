@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>solderAdd</class>
+ <widget class="QWidget" name="solderAdd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="add">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>280</y>
+     <width>211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>451</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="2">
+     <widget class="QComboBox" name="spec">
+      <item>
+       <property name="text">
+        <string>Мотострелок</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Танкист</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Артиллерист</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Пулеметчик</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Штурмовик</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Водитель-механик</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QComboBox" name="categ">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Б</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>В</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Г</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Д</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>ФИО                          </string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="2">
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Категория годности</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QDateEdit" name="dateEdit"/>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Дата рождения</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="fio">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>4</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Специальность</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Звание</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QComboBox" name="sost">
+      <item>
+       <property name="text">
+        <string>В запасе</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Мобилизован</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>На службе по контракту</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Состояние</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QComboBox" name="zvan">
+      <item>
+       <property name="text">
+        <string>Рядовой</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Старшина</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Прапорщик</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Лейтенант</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Капитан</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Майор</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Полковник</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Маршал</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
