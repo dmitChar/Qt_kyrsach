@@ -17,8 +17,25 @@
 ## Используемые паттерны проектирования
 - Observer
 Используется для реализации связи между основным окном и дополнительными диалоговыми окнами. Основное окно подписывается на изменения данных через сигналы и слоты
+
   ![image](https://github.com/user-attachments/assets/51a807b4-a7f2-4817-94ea-efbb4a14921f)
 - Фасад
 Позволяет скрыть сложность системы путём сведения всех возможных внешних вызовов к одному объекту.
+
 ![image](https://github.com/user-attachments/assets/f56c98ec-f38c-4656-9ece-04adc3c482db)
+
+## Интерфейс приложения
+- Главное окно
+![image](https://github.com/user-attachments/assets/9376d9e8-db11-4ad5-bbfd-915a49d31d69)
+
+- Окно военнослужащих
+![image](https://github.com/user-attachments/assets/e962f544-4392-4bf5-9332-2eee0075c68f)
+
+- Окно полков
+![image](https://github.com/user-attachments/assets/aa15af70-c5c4-4f68-b698-b64f63eb69f3)
+
+- Окно мобилизации
+![image](https://github.com/user-attachments/assets/db5d5949-5a82-4434-abfd-c324712670fa)
+
+
 
